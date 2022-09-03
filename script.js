@@ -17,8 +17,8 @@ const countdown = function () {
 
   const day = Math.floor(remainingTime / 3600 / 24);
   const hour = Math.floor((remainingTime / 3600) % 24);
-  const min = Math.floor((((remainingTime / 3600) % 24) * 60) % 60);
-  const second = Math.floor((((remainingTime / 3600) % 24) * 3600) % 60);
+  const min = Math.floor((remainingTime / 60) % 60);
+  const second = Math.floor(remainingTime % 60);
 
   days.textContent = day;
   hours.textContent = hour;

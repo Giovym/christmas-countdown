@@ -1,0 +1,29 @@
+@media (max-width: 34em) {
+  body {
+    background-image: url(../img/kateryna-hliznitsova-7zd7WPuQ82c-small.jpg);
+    backdrop-filter: blur(8px);
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #c30f16;
+    padding: 0 6rem;
+  }
+
+  .countdown-container {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .big-text {
+    font-size: 4rem;
+    color: #c30f16;
+    font-weight: bold;
+  }
+
+  span {
+    color: #c30f16;
+    font-weight: bold;
+  }
+}
