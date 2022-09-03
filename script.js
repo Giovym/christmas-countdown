@@ -13,7 +13,6 @@ const countdown = function () {
   const currentDate = new Date();
 
   const remainingTime = Math.floor((christmasDate - currentDate) / 1000);
-  // console.log(remainingTime);
 
   const day = Math.floor(remainingTime / 3600 / 24);
   const hour = Math.floor((remainingTime / 3600) % 24);
