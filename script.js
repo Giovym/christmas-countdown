@@ -19,11 +19,13 @@ const countdown = function () {
   const min = Math.floor((remainingTime / 60) % 60);
   const second = Math.floor(remainingTime % 60);
 
-  days.textContent = day;
-  hours.textContent = hour;
-  mins.textContent = min;
-  seconds.textContent = second;
+  days.textContent = formatTime(day);
+  hours.textContent = formatTime(hour);
+  mins.textContent = formatTime(min);
+  seconds.textContent = formatTime(second);
 };
+
+const formatTime = (time) => (time < 10 ? `0${time}` : time);
 
 countdown();
 
