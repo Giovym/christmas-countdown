@@ -5,7 +5,7 @@ const hours = document.getElementById("hours");
 const mins = document.getElementById("mins");
 const seconds = document.getElementById("seconds");
 
-const christmas = "25 Dec 2022";
+const christmas = "25 Dec 2023";
 console.log(new Date(christmas));
 
 const countdown = function () {
